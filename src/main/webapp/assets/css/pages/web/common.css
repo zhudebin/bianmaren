@@ -1,0 +1,56 @@
+.nav-main-header a {
+    color: #FFF;
+    font-weight: 200;
+}
+
+.header-navbar-scroll #header-navbar{
+    background-color: #FFF;
+}
+
+.header-navbar-transparent.header-navbar-fixed.header-navbar-scroll #header-navbar{
+    background-color: #FFF;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+
+.header-navbar .btn-toggle{
+
+    color: #FFF;
+}
+
+.header-navbar-transparent .nav-header > li > a, .nav-header > li > .btn-group > a{
+    color: #FFF;
+}
+.header-navbar-scroll .nav-header > li > a, .nav-header > li > .btn-group > a{
+    color: #000;
+}
+
+.header-navbar-transparent .nav-header > li button{
+    color: #FFF;
+}
+.header-navbar-scroll .nav-header > li button{
+    color: #000;
+}
+
+@media screen and (min-width: 992px){
+    .nav-main-header ul {
+        background-color: #FFF;
+    }
+    .nav-main-header ul li a{
+        color: #333;
+    }
+    .nav-main-header ul li a:hover{
+        color: #000;
+    }
+    .header-navbar-transparent.header-navbar-fixed.header-navbar-scroll #header-navbar a{
+        color: #000;
+    }
+}
+
+pre{
+    border: none;
+    background: #FFF;
+}
+
+pre.hljs {
+    background: #FFF;
+}

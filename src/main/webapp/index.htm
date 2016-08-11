@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!--[if IE 9]>         <html class="ie9 no-focus"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-focus"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>编码人</title>
+    <meta name="keywords" content="编码人,编码人博客,程序员,编程,IT,技术,博客" />
+    <meta name="description" content="一个程序员博客的平台,可以分享自己的学习心得" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
+    <meta name="baidu-site-verification" content="GiLi7A3t5W" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" id="css-main" href="/BianmarenBlog/assets/js/plugins/slick/slick.min.css">
+    <link rel="stylesheet" id="css-main" href="/BianmarenBlog/assets/js/plugins/slick/slick-theme.min.css">
+    <link rel="stylesheet" href="/BianmarenBlog/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" id="css-main" href="/BianmarenBlog/assets/css/oneui.css">
+    <link rel="stylesheet" id="css-main" href="/BianmarenBlog/assets/css/pages/web/common.css">
+
+    <!-- 百度统计 -->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?a36a89df54e63fee49efb7c16e3733aa";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+</head>
+<body>
+    <!-- Page Container -->
+    <div id="page-container" class="header-navbar-fixed header-navbar-transparent">
+
+<!-- Header -->
+<header id="header-navbar" class="content-mini content-mini-full">
+    <div class="content-boxed">
+        <!-- Header Navigation Right -->
+        <ul class="nav-header pull-right">
+
+            <li class="hidden-md hidden-lg">
+                <!-- Toggle class helper (for main header navigation below in small screens), functionality initialized in App() -> uiToggleClass() -->
+                <button class="btn-toggle btn btn-link pull-right" data-toggle="class-toggle" data-target=".js-nav-main-header" data-class="nav-main-header-o" type="button">
+                    <i class="fa fa-navicon"></i>
+                </button>
+            </li>
+        </ul>
+        <!-- END Header Navigation Right -->
+
+        <!-- Main Header Navigation -->
+        <ul class="js-nav-main-header nav-main-header pull-right">
+            <li class="text-right hidden-md hidden-lg">
+                <!-- Toggle class helper (for main header navigation in small screens), functionality initialized in App() -> uiToggleClass() -->
+                <button class="btn btn-link text-white" data-toggle="class-toggle" data-target=".js-nav-main-header" data-class="nav-main-header-o" type="button">
+                    <i class="fa fa-times"></i>
+                </button>
+            </li>
+                                    <li><a class="text-white" href="http://www.bianmaren.com">首页</a></li>
+                        <li><a class="text-white" href="http://www.bianmaren.com/article/list/1.html">编程</a></li>
+                        <li><a class="text-white" href="http://www.bianmaren.com/article/list/2.html">前端</a></li>
+                        <li><a class="text-white" href="http://www.bianmaren.com/article/list/3.html">设计</a></li>
+                        <li><a class="text-white" href="http://www.bianmaren.com/article/list/4.html">互联网</a></li>
+                        <li><a class="text-white" href="http://www.bianmaren.com/common/web/aboutUs.html">关于</a></li>
+                        <li><a class="text-white" href="http://www.bianmaren.com/common/web/onlineMessage.html">留言</a></li>
+        </ul>
+        <!-- END Main Header Navigation -->
+
+        <!-- Header Navigation Left -->
+        <ul class="nav-header pull-left">
+            <li class="header-content">
+                <a class="h5" href="/BianmarenBlog/">
+                    编码人
+                </a>
+            </li>
+        </ul>
+        <!-- END Header Navigation Left -->
+    </div>
+</header>
+<!-- END Header -->
+        <!-- Main Container -->
+        <main id="main-container">
+
+            <div class="bg-image" id="topBox" style="background-image:url('/BianmarenBlog/assets/img/photos/photo12@2x.jpg')" >
+                <div>
+                    <section class="content content-full content-boxed overflow-hidden">
+                        <!-- Section Content -->
+                        <div class="push-50-t push-50 text-center">
+                            <h1 class="h2 text-white push-10 animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown">今日名言</h1>
+                            <h2 class="h5 text-white-op animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown">
+                                    民谚 ：不怕衣衫破，就怕肚里没有货
+                            </h2>
+                        </div>
+                        <!-- END Section Content -->
+                    </section>
+                </div>
+            </div>
+
+            <!-- END Hero Content -->
+            <!-- Content -->
+            <section class="content content-boxed">
+                <div class="push-30-t">
+                    <div class="row"  id="articleBox"></div>
+                </div>
+                <div class="myloading text-center font-w300 push-30" style="font-size: 20px;"><i class="fa fa-spinner fa-pulse fa-fw "></i> 马不停蹄加载中...</div>
+                <div class="mynomore text-center font-w300 push-30 hidden" style="font-size: 20px;">哥 , 没货了</div>
+            </section>
+            <!-- END Content -->
+        </main>
+        <!-- END Main Container -->
+
+<!-- Footer -->
+<footer id="page-footer" class="bg-gray-lighter">
+    <div class="content content-boxed">
+        <!-- Footer Navigation -->
+        <div class="row push-30-t items-push-2x">
+            <div class="col-sm-9">
+                <h3 class="h5 font-w600 text-uppercase push-20">友情链接</h3>
+                <ul class="list list-simple-mini font-s13">
+                                                <a class="font-w400 push-10-r" target="_blank" href="http://www.diange168.com/">颠格网络</a>
+                            <a class="font-w400 push-10-r" target="_blank" href="http://liuyuanwai.cn/">劉員外</a>
+                            <a class="font-w400 push-10-r" target="_blank" href="http://osplus.cc/">osplus</a>
+                            <a class="font-w400 push-10-r" target="_blank" href="http://www.codingdemo.com">codingdemo</a>
+
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h3 class="h5 font-w600 text-uppercase push-20">联系我们</h3>
+                <div class="font-s13 push">
+                    联系人 ： 邓文兵<br>
+                    电话 ： 18770090755<br>
+                    QQ ： 441889070<br>
+                </div>
+                <div class="font-s13">
+                    <i class="si si-envelope-open"></i> 441889070@qq.com
+                </div>
+            </div>
+        </div>
+        <!-- END Footer Navigation -->
+
+        <!-- Copyright Info -->
+        <div class="font-s12 push-20 clearfix">
+            <hr class="remove-margin-t">
+            <div class="pull-right">
+                赣ICP备14010443号
+            </div>
+            <div class="pull-left">
+                <a class="font-w600" href="http://www.bianmaren.com/" target="_blank">编码人</a> &copy; <span class="js-year-copy"></span>
+            </div>
+        </div>
+        <!-- END Copyright Info -->
+    </div>
+</footer>
+<!-- END Footer -->    </div>
+    <!-- END Page Container -->
+
+<script type="text/javascript">
+
+    //全局变量
+    var g_base_path = "/BianmarenBlog";
+    var g_locale = "zh_CN";
+
+    //全局设置
+    var g_setting = {
+    };
+
+    //JS依赖路径设置
+    function initRequirePath(){
+        if("undefined" != typeof require){
+            require.config({
+                baseUrl: g_base_path +'/assets',
+                paths: {
+                    //核心依赖
+                    jquery:'js/core/jquery.min',
+                    bootstrap:'js/core/bootstrap.min',
+                    slimscroll:'js/core/jquery.slimscroll.min',
+                    scrollLock:'js/core/jquery.scrollLock.min',
+                    appear:'js/core/jquery.appear.min',
+                    countTo:'js/core/jquery.countTo.min',
+                    placeholder:'js/core/jquery.placeholder.min',
+                    cookie:'js/core/js.cookie.min',
+                    app:'js/app',
+                    oneui:'js/oneui.min',
+
+                    //插件
+                    validate:'js/plugins/jquery-validation/jquery.validate.min',
+                    bootstrap_notify:'js/plugins/bootstrap-notify/bootstrap-notify.min',
+                    sweetalert:'js/plugins/sweetalert/sweetalert.min',
+                    jQueryForm:'js/plugins/jQueryForm/jquery.form',
+                    layer:'js/plugins/layer-v2.1/layer',
+                    table2excel: 'js/plugins/table2excel/jquery.table2excel.min',
+                    nprogress: 'js/plugins/nprogress-master/nprogress',
+                    slick: 'js/plugins/slick/slick.min',
+                    ias: 'js/plugins/ias/jquery-ias.min',
+                    highlightjs: 'js/plugins/highlightjs/highlight.min',
+
+                    //通用模块
+                    common:'js/common',
+                    commonexec:'js/pages/web/commonexec',
+
+                    //加密相关依赖
+                    base64:'js/plugins/rsa/base64',
+                    jsbn:'js/plugins/rsa/jsbn',
+                    prng4:'js/plugins/rsa/prng4',
+                    rng:'js/plugins/rsa/rng',
+                    rsa:'js/plugins/rsa/rsa',
+                }
+            });
+        }
+    }
+
+</script>    <!-- Page JS Code -->
+    <script data-main="/BianmarenBlog/assets/js/pages/web/index.js" src="/BianmarenBlog/assets/js/core/require.js" defer="defer" async="async"></script>
+</body>
+</html>
